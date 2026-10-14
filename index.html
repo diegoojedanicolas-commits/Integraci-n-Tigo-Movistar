@@ -168,7 +168,7 @@ function hl(i){
   box.addEventListener("focusout",()=>hl(-1));
 })();
 var IV={h:[["Municipios con cobertura","128",128/340*100],["Días al mes de conexión (prepago)","15",50]],m:[["Municipios con cobertura","324",324/340*100],["Días al mes de conexión (prepago)","30",100]]};
-function iv(v){bars("iv",IV[v].map(x=>[x[0],x[1],"#d0021b",x[2]]))}
+function iv(v){bars("iv",IV[v].map((x,i)=>[x[0],x[1],i?"#111":"#d0021b",x[2]]))}
 var FN={mk:mk,iv:iv};
 document.addEventListener("click",function(e){
   var b=e.target.closest("[data-g]");if(!b)return;
