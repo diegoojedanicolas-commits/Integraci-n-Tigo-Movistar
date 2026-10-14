@@ -13,7 +13,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:"Helvetica Neue"
 .wrap{max-width:720px;margin:0 auto;padding:36px 22px 48px}
 button{font:inherit;color:inherit;cursor:pointer}
 .hero{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center;border-top:4px solid var(--red);padding-top:28px}
-h1{font:700 40px/1.08 Georgia,"Times New Roman",serif;margin:0 0 12px}
+h1{font:700 34px/1.1 Georgia,"Times New Roman",serif;margin:0 0 12px}
 .lead{color:var(--muted);margin:0 0 20px;max-width:34ch}
 .pill{background:#fff;border:1px solid var(--ink);border-radius:999px;padding:6px 15px;font-size:14px;transition:background .15s,color .15s}
 .pill[aria-pressed=true],.pill.on{background:var(--ink);color:#fff}
@@ -23,7 +23,7 @@ svg{display:block;width:100%;height:auto}
 .t .sig rect{fill:var(--red)}.t #net{fill:var(--red)}
 section{margin-top:64px}
 .k{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--red);font-weight:700;margin:0 0 6px}
-h2{font:400 26px/1.2 Georgia,serif;margin:0 0 18px}
+h2{font:400 22px/1.25 Georgia,serif;margin:0 0 18px}
 details{border-bottom:1px solid var(--line)}
 summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:16px;padding:15px 0}
 summary::-webkit-details-marker{display:none}
@@ -41,7 +41,7 @@ details p{margin:0 0 16px;color:var(--muted);font-size:15px;max-width:58ch}
 .tl li.now:before{background:var(--red);border-color:var(--red)}
 .tl time{position:absolute;left:0;width:88px;text-align:right;top:1px;font-size:13px;font-weight:700;color:var(--muted)}
 .tl .now time{color:var(--red)}
-.tl b{display:block;font:400 19px/1.3 Georgia,serif}
+.tl b{display:block;font:400 17px/1.35 Georgia,serif}
 .tl p{margin:4px 0 0;color:var(--muted);font-size:15px;max-width:56ch}
 @keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
 @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
@@ -63,14 +63,14 @@ details p{margin:0 0 16px;color:var(--muted);font-size:15px;max-width:58ch}
 #lg li b{margin-left:auto;font-weight:500;font-variant-numeric:tabular-nums}
 .pie.h li{opacity:.4}.pie.h li.a{opacity:1}
 .note{color:var(--muted);font-size:14px;margin:16px 0 0;max-width:56ch}
-.big{font:400 52px/1 Georgia,serif;margin:0}
+.big{font:400 44px/1 Georgia,serif;margin:0}
 .big small{display:block;font:14px "Helvetica Neue",Arial,sans-serif;color:var(--muted);margin-top:8px}
 .figs{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:30px 0 34px}
 .figs svg{width:30px;height:30px;stroke:var(--ink);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;margin-bottom:8px}
-.figs b{display:block;font:400 22px Georgia,serif}
+.figs b{display:block;font:400 20px Georgia,serif}
 .figs span{font-size:13px;color:var(--muted);line-height:1.35;display:block}
 .src{margin-top:60px;padding-top:14px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
-@media (max-width:600px){.hero{grid-template-columns:1fr}.hero svg{max-width:240px;margin:0 auto;order:-1}h1{font-size:34px}.figs{grid-template-columns:1fr 1fr}.rw{grid-template-columns:96px 1fr 56px}}
+@media (max-width:600px){.hero{grid-template-columns:1fr}.hero svg{max-width:240px;margin:0 auto;order:-1}h1{font-size:30px}.figs{grid-template-columns:1fr 1fr}.rw{grid-template-columns:96px 1fr 56px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
@@ -88,7 +88,7 @@ details p{margin:0 0 16px;color:var(--muted);font-size:15px;max-width:58ch}
       <rect x="95" y="37" width="30" height="5" rx="2.5" fill="#111"/>
       <text id="net" x="110" y="84" text-anchor="middle" font-size="16" font-weight="700" fill="#9a9a9a" font-family="Helvetica,Arial,sans-serif">Movistar</text>
       <g class="sig"><rect x="84" y="136" width="10" height="14" rx="2"/><rect x="100" y="126" width="10" height="24" rx="2"/><rect x="116" y="116" width="10" height="34" rx="2"/><rect x="132" y="106" width="10" height="44" rx="2"/></g>
-      <text x="110" y="184" text-anchor="middle" font-size="9" fill="#6b6b6b" font-family="Helvetica,Arial,sans-serif">Mismo chip, mismo equipo</text>
+      <text text-anchor="middle" font-size="9" fill="#6b6b6b" font-family="Helvetica,Arial,sans-serif"><tspan x="110" y="182">Mismo chip,</tspan><tspan x="110" y="195">mismo equipo</tspan></text>
     </svg>
   </div>
 
